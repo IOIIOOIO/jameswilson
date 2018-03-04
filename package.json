@@ -8,8 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "prerender": "node build/build.prerender.js",
-    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
+    "prerender": "node build/build.prerender.js"
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
