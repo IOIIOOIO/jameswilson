@@ -104,7 +104,7 @@ a:focus {
 
 .landingPage {
   background-color: red;
-  background-image: url(/static/img/backgrounds/french-stucco.png);
+  background-image: url('/static/img/backgrounds/french-stucco.png');
   background-size: 400px;
   min-height: 100vh;
 }
@@ -128,7 +128,7 @@ a:focus {
         padding-top: 10vh
     }
     .jobPage {
-        background-image: url(/static/img/backgrounds/dust_scratches.png);
+        background-image: url('/static/img/backgrounds/dust_scratches.png');
         background-attachment: local;
         background-repeat: repeat
     }
@@ -320,7 +320,7 @@ a:focus {
 .footerPage {
   background-color: #585858;
   min-height: 100vh;
-  background-image: url(/static/img/backgrounds/french-stucco.png);
+  background-image: url('/static/img/backgrounds/french-stucco.png');
   background-size: 300px;
 }
 
