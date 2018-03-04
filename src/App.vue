@@ -48,7 +48,16 @@
           <span class='direction-hover__top' data-label='Web Catalogue'></span>
           <span class='direction-hover__bottom' data-label='Web Catalogue'></span>
         </label>
-        <img class='main-image' id='main-ms-1' data-src="static/img/slides/mapstudio/mapstudio-01.jpg" alt='Web banners' />
+        <clazy-load class='main-image' id='main-ms-1' src="https://baconmockup.com/1920/1920" tag="picture">
+      <!-- The image slot renders after the image loads. -->
+      <img src="https://baconmockup.com/1920/1920" slot="image">
+      <!-- The placeholder slot displays while the image is loading. -->
+      <div slot="placeholder">
+        <!-- You can put any component you want in here. -->
+       <div style="width: 100%; background: red; padding-top: 70%;"></div>
+      </div>
+        </clazy-load>
+        <!-- <img class='main-image' id='main-ms-1' data-src="static/img/slides/mapstudio/mapstudio-01.jpg" alt='Web banners' /> -->
         <img class='main-image' id='main-ms-2' data-src='static/img/slides/mapstudio/mapstudio-02.png' alt='Social media posts' />
         <img class='main-image' id='main-ms-3' data-src='static/img/slides/mapstudio/mapstudio-03.jpg' alt='Posters' />
         <img class='main-image' id='main-ms-4' data-src='static/img/slides/mapstudio/mapstudio-04.jpg' alt='Posters' />
@@ -371,12 +380,12 @@
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 <style>
-@import './assets/css/bootstrap-grid.css';
-@import './assets/css/styles.css';
-@import './assets/css/slideshow.css';
+@import "./assets/css/bootstrap-grid.css";
+@import "./assets/css/styles.css";
+@import "./assets/css/slideshow.css";
 </style>
