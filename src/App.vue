@@ -376,6 +376,7 @@ export default {
 </script>
 
 <style>
+@import "./assets/css/normalize.css";
 @import './assets/css/bootstrap-grid.css';
 @import './assets/css/styles.css';
 @import './assets/css/slideshow.css';
